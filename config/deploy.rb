@@ -2,7 +2,7 @@ ssh_options[:forward_agent] = true
 ssh_options[:keys] = %w(~/.ssh/id_rsa.pub)
 
 set :application, "Gimme Ice Cream"
-set :repository,  "git@github.com:ted27/gimme-ice-cream.git"
+set :repository,  "https://github.com/ted27/gimme-ice-cream.git"
 set :user, 'ice-cream'
 set :use_sudo, false
 
